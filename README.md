@@ -1,0 +1,2 @@
+# CoreJava
+Solved questions (CoreJava)
