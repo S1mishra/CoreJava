@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrimtiveAndWrapperDoubleInt",
+            "request": "launch",
+            "mainClass": "JavaDataTypes.PrimtiveAndWrapperDoubleInt",
+            "projectName": "CoreJava_22f12c9"
+        },
+        {
+            "type": "java",
             "name": "FunctionInterface",
             "request": "launch",
             "mainClass": "FunctionInterface",
