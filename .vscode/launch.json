@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComparingTwoWrappers",
+            "request": "launch",
+            "mainClass": "JavaDataTypes.ComparingTwoWrappers",
+            "projectName": "CoreJava_22f12c9"
+        },
+        {
+            "type": "java",
             "name": "PrimtiveAndWrapperDoubleInt",
             "request": "launch",
             "mainClass": "JavaDataTypes.PrimtiveAndWrapperDoubleInt",
