@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EnumSampleCode",
+            "request": "launch",
+            "mainClass": "EnumerationsInJava.EnumSampleCode",
+            "projectName": "CoreJava_22f12c9"
+        },
+        {
+            "type": "java",
+            "name": "ExploreLocalDate",
+            "request": "launch",
+            "mainClass": "JavaTimeApi.ExploreLocalDate",
+            "projectName": "CoreJava_22f12c9"
+        },
+        {
+            "type": "java",
             "name": "ExploreLocalDate",
             "request": "launch",
             "mainClass": "JavaTimeAPI.ExploreLocalDate",
