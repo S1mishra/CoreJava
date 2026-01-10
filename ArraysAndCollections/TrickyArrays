@@ -1,0 +1,14 @@
+public class TrickyArrays{
+    public static void main(String[] args){
+        var i = 0;
+        int[] iA = {10, 20};
+        iA[i] = i = 30; //Tricky part
+        System.out.println(""+ iA[0] + "" + iA[1] + "" + i);
+    }
+}
+//Explanation:
+// In the line iA[i] = i = 30;, the assignment is evaluated from right to left.
+// First, i is assigned the value 30.
+// Then, iA[i] is evaluated. At this point, i has already been updated to 30.
+// However, the original value of i (which was 0) is used to determine the index for iA, because array indexing is done before the assignment.
+// Therefore, iA[0] is assigned the value 30.
