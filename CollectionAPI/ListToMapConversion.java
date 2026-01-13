@@ -27,5 +27,4 @@ public class ListToMapConversion {
             .collect(Collectors.groupingBy(String::length));
         System.out.println(map2);
     }
-    
 }
