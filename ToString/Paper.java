@@ -19,3 +19,5 @@ public class Paper {
        System.out.println(papers[1].id);
     }
 }
+
+//Point to note: The default toString() method of an array will print the type and hash code, not the contents. To print the contents, you would need to override the toString() method in the Paper class or use Arrays.toString(papers) for the array.
